@@ -19,4 +19,4 @@ function initialize(){
   CaliOverlay.setMap(map);
 }
 
-google.maps.event.addDomListener(windor, 'load', initialize);
+google.maps.event.addDomListener(window, 'load', initialize);
